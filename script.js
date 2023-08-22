@@ -1,8 +1,4 @@
 'use strict';
-// console.log(document.querySelector('.message').textContent); //textcontent gives the text inside the element tag
-// document.querySelector('.message').textContent = 'Correct Number!';//we can also set the textcontent or any other element
-// document.querySelector('.guess').value = 34; //input is of type number nad hence it's we are accessing its value
-//addeventlistener takes two parameters(event,a function to call when the event happens)
 
 let secretNumber = Math.trunc(Math.random() * 20) + 1;
 let score = 20;
